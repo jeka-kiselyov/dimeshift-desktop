@@ -6,6 +6,19 @@ DimeShift desktop application. Built with Electron.
  - [Electron](http://electron.atom.io/)
  - SQLite as database engine, stores all data locally.
 
+
+
+### Installation
+
+#### From Source
+    git clone https://github.com/jeka-kiselyov/dimeshift-desktop
+    cd dimeshift-desktop
+    npm install
+    npm start
+
+#### Binaries
+todo
+
 Screenshots:
 ----
 ![Dimeshift  Desktop](https://raw.githubusercontent.com/jeka-kiselyov/dimeshift-desktop/master/resources/screenshots/1.png)
@@ -19,18 +32,6 @@ Screenshots:
 ![Dimeshift  Desktop](https://raw.githubusercontent.com/jeka-kiselyov/dimeshift-desktop/master/resources/screenshots/5.png)
 
 ![Dimeshift  Desktop](https://raw.githubusercontent.com/jeka-kiselyov/dimeshift-desktop/master/resources/screenshots/6.png)
-
-
-### Installation
-
-#### From Source
-    git clone https://github.com/jeka-kiselyov/dimeshift-desktop
-    cd dimeshift-desktop
-    npm install
-    npm start
-
-#### Binaries
-todo
 
 ### License
 MIT
