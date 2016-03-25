@@ -4,7 +4,9 @@
   "description": "The easiest and desktop way to track your expenses. Free. Open-source.",
   "main": "index.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "preinstall": "npm install --build-from-source sqlite3",
+    "postinstall": "node rebuild.js"
   },
   "repository": {
     "type": "git",
@@ -24,9 +26,8 @@
     "electron-prebuilt": "^0.37.2",
     "node-pre-gyp": "^0.6.24",
     "rfr": "^1.2.3",
-    "sqlite3": "3.1.2"
+    "electron-rebuild": "^1.1.3",
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/archive/master.tar.gz"
   },
-  "devDependencies": {
-    "electron-rebuild": "^1.1.3"
-  }
+  "devDependencies": {}
 }

@@ -1,5 +1,11 @@
 'use strict';
 
+// import {
+//   installNodeHeaders, rebuildNativeModules, shouldRebuildNativeModules
+// }
+// from 'electron-rebuild';
+
+
 const electron = require('electron');
 const rfr = require('rfr');
 const path = require('path');
@@ -24,13 +30,13 @@ function initialize() {
 function createWindow(port) {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1000,
+    height: 700,
     "node-integration": false
   });
 
   // and load the index.html of the app.
-  mainWindow.loadURL('http://localhost:' + port + "?dsafd3fsd");
+  mainWindow.loadURL('http://localhost:' + port);
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools();
