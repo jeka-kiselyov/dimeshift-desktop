@@ -1,4 +1,4 @@
-## Dimeshift Desktop. Easiest way to track your expenses, now offline.
+## Dimeshift Desktop. Easiest way to track your expenses, on desktop.
 
 DimeShift desktop application. Built with Electron.
 
