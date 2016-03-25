@@ -20,8 +20,13 @@
     "url": "https://github.com/jeka-kiselyov/dimeshift-desktop/issues"
   },
   "dependencies": {
-    "dimeshift": "^0.1.18",
+    "dimeshift": "^0.1.20",
     "electron-prebuilt": "^0.37.2",
-    "rfr": "^1.2.3"
+    "node-pre-gyp": "^0.6.24",
+    "rfr": "^1.2.3",
+    "sqlite3": "3.1.2"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.1.3"
   }
 }

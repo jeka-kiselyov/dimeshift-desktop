@@ -10,6 +10,7 @@ let mainWindow;
 process.env['NODE_ENV'] = 'electron';
 
 var startServer = require('dimeshift');
+console.log(process.versions);
 
 function initialize() {
   startServer({
