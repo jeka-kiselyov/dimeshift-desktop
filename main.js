@@ -31,7 +31,8 @@ function createWindow(port) {
   mainWindow = new BrowserWindow({
     width: 1000,
     height: 700,
-    "node-integration": false
+    "node-integration": false,
+    icon: __dirname + "/resources/icon.png"
   });
 
   // and load the index.html of the app.

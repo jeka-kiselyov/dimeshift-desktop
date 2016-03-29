@@ -1,6 +1,6 @@
 {
   "name": "dimeshift-desktop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The easiest and desktop way to track your expenses. Free. Open-source.",
   "main": "index.js",
   "scripts": {
