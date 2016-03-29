@@ -1,6 +1,6 @@
 {
   "name": "dimeshift-desktop",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The easiest and desktop way to track your expenses. Free. Open-source.",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,29 @@
     "url": "https://github.com/jeka-kiselyov/dimeshift-desktop.git"
   },
   "keywords": [
+    "desktop",
+    "linux",
+    "windows",
+    "osx",
+    "os x",
     "dimeshift",
-    "money"
+    "finance",
+    "financial",
+    "electron",
+    "electron app",
+    "electron apps",
+    "desktop apps",
+    "desktop app",
+    "desktop applications",
+    "application",
+    "saas",
+    "api",
+    "currency",
+    "economy",
+    "ukrainian",
+    "russian",
+    "backbonejs",
+    "restify"
   ],
   "author": "Jeka Kiselyov <jeka911@gmail.com> (http://www.jeka911.com/)",
   "license": "MIT",
