@@ -36,7 +36,7 @@ function createWindow(port) {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadURL('http://localhost:' + port);
+  mainWindow.loadURL('http://localhost:' + port + '?fd');
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools();
