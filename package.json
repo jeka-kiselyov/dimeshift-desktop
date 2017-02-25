@@ -1,6 +1,6 @@
 {
   "name": "dimeshift-desktop",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The easiest and desktop way to track your expenses. Free. Open-source.",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "backbonejs",
     "restify"
   ],
-  "author": "Jeka Kiselyov <jeka911@gmail.com> (http://www.jeka911.com/)",
+  "author": "Jeka Kiselyov <jeka911@gmail.com> (https://github.com/jeka-kiselyov)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jeka-kiselyov/dimeshift-desktop/issues"
